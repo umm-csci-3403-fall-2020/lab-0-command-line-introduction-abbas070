@@ -10,7 +10,7 @@ tar -Zxf NthPrime.tgz
 
 # This step goes into the NthPrime directory 
 
-cd NthPrime
+cd NthPrime || exit
 
 # Compiles the C program that was extracted 
 
