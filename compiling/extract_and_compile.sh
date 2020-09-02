@@ -2,11 +2,11 @@
 
 # CONSTANT
 
-NUMBER=$1
+number=$1
 
 # This step is extracting the file
 
-tar -Zxf NthPrime.tgz
+tar -xzf NthPrime.tgz
 
 # This step goes into the NthPrime directory 
 
@@ -18,4 +18,4 @@ gcc main.c nth_prime.c -o NthPrime
 
 # Call the executable  NthPrime
 
-./NthPrime "$NUMBER"
+./NthPrime "$number"
